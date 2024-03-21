@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/Style.css">
+
+</head>
+
+<body>
+    
+    <title>Registros</title>
+
+    <center>
+        <nav>
+
+            <a href="Pagina.html">INICIO</a>
+            <a href="Nosotros.html">NOSOTROS</a>
+            <a href="Servicios.html">SERVICIOS</a>
+            <a href="Registros.html">REGISTROS</a>
+            <a href="Contacto.html">CONTACTO</a>
+
+        </nav>
+    </center>
+
+
+    <form class="formdatos" action="Resultado.html" method="post" id="formulario" name="formulario">
+
+        <h1 class="titulo-registro">Registros</h1>
+
+        <!-- Input para texto -->
+        <label for="nombre">Nombre:</label>
+        <input class="inputs" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+        <label for="apellido">Apellidos:</label>
+        <input class="inputs" type="text" id="apellido" name="apellido" placeholder="Escribe tus apellidos">
+
+        <!-- Input para Genero -->
+        <label for="generoA,generoB">Genero:</label>
+        <input class="genero" type="radio" name="opciones" id="generoA" value="masculino">
+        <label for="generoA">Masculino</label>
+        <input class="Genero" type="radio" name="opciones" id="generoB" value="femenino">
+        <label for="generoB">Femenino</label>
+
+        <!-- Input para correo -->
+        <label for="correo">Correo:</label>
+        <input class="inputs" type="email" id="correo" name="correo">
+        
+        <!-- Input para Fecha -->
+        <label for="fecha">Fecha:</label>
+        <input class="inputs" type="date" id="fecha" name="fecha">
+
+        <!-- Input para Dirección -->
+        <label for="dirección">Dirección:</label>
+        <textarea class="inputs" name="dirección" id="dirección" name="dirección" cols="30" rows="10"></textarea>
+
+        <!-- Subir Datos -->
+        <input class="enviar" name="enviar" type="submit" value="subir">
+
+    </form>
+    
+    
+</body>
+
+</html>

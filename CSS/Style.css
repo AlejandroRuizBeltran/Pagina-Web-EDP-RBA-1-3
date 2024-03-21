@@ -1,0 +1,61 @@
+/* El body de la pagina se vera afectadoo por los atributos. */
+
+body{
+    background-color: lightgreen;
+}
+
+/*   */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ 
+/* Todo dato que tenga como clase formdatos se vera afectado por los atributos, en este caso le 
+afecta a nuestro form con todos nuestros Inputs.  */
+
+.formdatos{
+    width: 400px; 
+    padding: 50px;
+    margin: auto; 
+    background-color: rgb(0, 255, 64);
+    border-radius: 20px;
+    margin-top: 100px;
+    border: 3px  solid green;
+}
+
+/* Todo dato que tenga como clase titulo-registro se vera afectado por estos atributos.  */
+
+.titulo-registro{
+    padding: 40px;
+    font-size: 50px;
+    color: darkgreen;
+    font-style: italic;
+}
+
+/* Todo dato que tenga como clase INPUTS se vera afectado por los atributos, en este caso todos
+los inputs con class Inputs.  */
+
+.inputs{
+    padding: 5px;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(140, 218, 192);
+    border: 2px solid rgb(17, 97, 9);
+}
+
+/* Todo dato que tenga como clase ENVIAR se vera afectado por los atributos, en este caso el input
+con class ENVIAR.  */
+
+.enviar{
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    border-color: rgb(17, 97, 9);
+    font-size: 15px;
+    border-style: groove;
+    outline-style: groove;
+    outline-color: rgb(17, 97, 9);
+    margin-inline: 175px;
+}
