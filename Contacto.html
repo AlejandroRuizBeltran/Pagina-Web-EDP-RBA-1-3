@@ -29,7 +29,32 @@
        </nav>
    </center>
 
-    <h1>Contacto</h1>
+
+    <form class="formdatos" action="Resultado.html" method="post" id="formulario" name="formulario">
+
+        <h1 class="titulo-registro">Contacto</h1>
+
+        <!-- Input para nombre -->
+        <label for="nombre">Nombre:</label>
+        <input class="inputs" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+        <!-- Input para correo -->
+        <label for="correo">Correo:</label>
+        <input class="inputs" type="email" id="correo" name="correo" placeholder="Correo@hotmail.com">
+
+        <!-- Input para numero para telefono -->
+        <label for="nombre">Numero:</label>
+        <input class="inputs" type="tel" id="tel" name="tel" maxlength="10"  placeholder="(667) XXX XXXX" pattern="[0-9]{10}" required>
+
+        <!-- Input para Mensaje -->
+        <label for="dirección">Mensaje:</label>
+        <textarea class="inputs" name="dirección" id="dirección" name="dirección" cols="30" rows="10"></textarea>
+
+        <!-- Subir Datos -->
+        <input class="enviar" name="enviar" type="submit" value="subir">
+
+    </form>
+
 
 </body>
 
